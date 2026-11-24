@@ -73,9 +73,9 @@ fn render_ui(f: &mut Frame, app: &App) {
                 row("Standard State: ", &e.standard_state),
                 row("Melting Point (K): ", &e.melting_point),
                 row("Boiling Point (K): ", &e.boiling_point),
-                row("Density: (g/cm^3): ", &e.density),
+                row("Density (g/cm^3): ", &e.density),
                 row("Atomic Radius (van der Waals; in pm): ", &e.atomic_radius),
-                row("Ionization Radius (in eV): ", &e.ionization_energy),
+                row("Ionization Energy (in eV): ", &e.ionization_energy),
                 row("Electron Affinity (in eV): ", &e.electron_affinity),
                 row("Year of Discovery: ", &e.year_discovered),
             ]
